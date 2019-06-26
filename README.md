@@ -221,9 +221,9 @@ with HTTP: ``git remote add gh-adswa https://github.com/adswa/git_intro.git``
   remotes/upstream/master
 ```
 
-2) Create a new branch that you name like your last name, and *move* (``checkout``) this branch: 
+2) Create a new branch that you name like your last name, and *switch to* (``checkout``) this branch: 
 ```
-git branch Wagner 
+git branch Wagner
 git checkout Wagner
   Switched to branch 'Wagner'
 
