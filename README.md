@@ -200,13 +200,17 @@ origin	git@github.com:<USERNAME>/git_intro.git (push)
 with SSH: ``git remote add gh-adswa git@github.com:adswa/git_intro.git``
 with HTTP: ``git remote add gh-adswa https://github.com/adswa/git_intro.git``
 
-5) Create a textfile. The name of your textfile should be your first name. The content of the file should be a link to your favourite webcomic. Add and commit this file to the repo.
+5) In the directory ``files/``, create a textfile. The name of your textfile should be your first name. The content of the file should be a link to your favourite webcomic. Add and commit this file to the repo.
 
-6) **push** this file to your fork: ``git push``
+6) Open the json file ``zenodo.json`` in an editor of your choice.
+**Add a (random) affiliation, (random) name, and (random) orcid to your assigned spot**, and then **add** and
+**commit** the change.
 
-7) go to your Github account and your fork of this repository. Submit a pull request.
+7) **push** the new file and the change to ``zenodo.json`` to your fork: ``git push``
 
-8) on your computer, integrate the changes we collaboratively made to this repository with ``git pull gh-adswa``
+8) go to your Github account and your fork of this repository. Submit a pull request.
+
+9) on your computer, integrate the changes we collaboratively made to this repository with ``git pull gh-adswa``
 
 
 **BRANCHING & MERGING**
