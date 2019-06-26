@@ -167,7 +167,7 @@ Date:   Thu Jun 20 15:03:21 2019 +0200
 
 17) Revert this commit: ``git revert <hash>``
 
-18) you are looking for the igit ``99`` in this repository. Instead of opening all files and looking through them, you can run ``git grep 99`` (The output would highlight 99s in your terminal):
+18) you are looking for the number ``99`` in this repository. Instead of opening all files and looking through them, you can run ``git grep 99`` (The output would highlight 99s in your terminal):
 
 ```diff
 nena.txt:Von 99 Luftballons
