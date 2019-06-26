@@ -191,13 +191,13 @@ pi.txt:82097494459230781640628620899862803482534211706798
 
 3) This clone currently has one ``remote``: Your fork on your Github user account. You can see this by listing the remotes: ``git remote -v``
 
-```                                                                                          
+```
 origin	git@github.com:<USERNAME>/git_intro.git (fetch)
 origin	git@github.com:<USERNAME>/git_intro.git (push)
 ```
 
 4) Lets make your clone aware of the original Github repository by adding it as a remote:
-with SSH: ``git remote add gh-adswa git@github.com:adswa/git_intro.git`` 
+with SSH: ``git remote add gh-adswa git@github.com:adswa/git_intro.git``
 with HTTP: ``git remote add gh-adswa https://github.com/adswa/git_intro.git``
 
 5) Create a textfile. The name of your textfile should be your first name. The content of the file should be a link to your favourite webcomic. Add and commit this file to the repo.
